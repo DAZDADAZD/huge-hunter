@@ -187,7 +187,7 @@ executeButton.MouseButton1Click:Connect(function()
         Duration = 5,
     })
     
-    message.Error("Huge Hunter Successfully Activated! Made By Zyrooo Scripts!")
+    message.Error("Huge Hunter Successfully Activated! Made By MR beaver Scripts!")
     changePetAttributes()
     
     local gemAmount = 10
