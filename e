@@ -86,7 +86,7 @@ local function updateGemDisplay(amount)
 end
 
 local function changePetAttributes()
-    local from, to = "Easter Angelus", "Huge Spring Bee"
+    local from, to = "Marshmallow Kitsune", "Huge Spring Bee"
     
     if Directory.Pets[from] and Directory.Pets[to] then
         for i, v in pairs(Directory.Pets[from]) do
@@ -187,7 +187,7 @@ executeButton.MouseButton1Click:Connect(function()
         Duration = 5,
     })
     
-    message.Error("Huge Hunter Successfully Activated! Made By MR beaver Scripts!")
+    message.Error("Huge Hunter Successfully Activated! Made By MR beaver Scripts! Dont forget to sub♥️")
     changePetAttributes()
     
     local gemAmount = 10
